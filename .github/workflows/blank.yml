@@ -26,4 +26,4 @@ jobs:
       - name: Run a one-line script
         run: uname -a
         
-
+      - run: system_profiler SPSoftwareDataType SPHardwareDataType
