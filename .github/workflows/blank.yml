@@ -27,3 +27,9 @@ jobs:
         run: uname -a
         
       - run: system_profiler SPSoftwareDataType SPHardwareDataType
+
+      - run: which go
+
+      - run: which node
+
+      - run: which python3
